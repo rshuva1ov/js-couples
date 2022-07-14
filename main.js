@@ -58,7 +58,7 @@
         timerId = setTimeout(() => {
           alert('Время игры закончилось');
           window.location.reload();
-        }, 60000);
+        }, 180000);
         startOfGame(Math.pow(validNumber, 2));
       }
     });
@@ -193,6 +193,7 @@
   function playAgain() {
     const section = document.querySelector('.main');
     const button = document.createElement('button');
+    alert('Вы победитель!');
     button.innerText = 'Сыграть ещё раз';
     button.classList.add('btn-1');
     section.after(button);

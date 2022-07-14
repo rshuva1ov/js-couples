@@ -42,7 +42,7 @@ p {
 }
 
 body {
-  background-image: url(/yellow-paper.jpg);
+  background-image: url(/img/yellow-paper.jpg);
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 2;
@@ -62,7 +62,8 @@ body {
 }
 
 .container {
-  width: 770px;
+  max-width: 770px;
+  padding: 0 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -108,9 +109,7 @@ body {
 }
 
 .card {
-  width: 100px;
-  height: 100px;
-  background: url(/src/yellow-paper.jpg);
+  z-index: 1;
   display: flex;
 }
 
@@ -119,7 +118,6 @@ body {
   padding: 0;
   background-color: whitesmoke;
   text-align: center;
-  font-size: 30px;
 }
 
 .btn-1 {
@@ -130,4 +128,27 @@ body {
   margin-top: 20px;
   width: 300px;
   font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 5px;
+  }
+
+  .number-card_input {
+    width: 70%;
+  }
+
+  .number-card_button {
+    width: 280px;
+  }
+
+  .main {
+    width: 80%;
+    height: 350px;
+  }
+
+  .btn-1 {
+    width: 280px;
+  }
 }
