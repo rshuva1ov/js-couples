@@ -1,27 +1,27 @@
 @font-face {
   font-family: "Open Sans";
-  src: url('/src/fonts/OpenSans-Regular.woff2') format('woff2'), url('/src/fonts/OpenSans-Regular.woff') format('woff');
+  src: url('/fonts/OpenSans-Regular.woff2') format('woff2'), url('/fonts/OpenSans-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Open Sans";
-  src: url('/src/fonts/OpenSans-Bold.woff2') format('woff2'), url('/src/fonts/OpenSans-Bold.woff') format('woff');
+  src: url('/fonts/OpenSans-Bold.woff2') format('woff2'), url('/fonts/OpenSans-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Open Sans";
-  src: url('/src/fonts/OpenSans-Semibold.woff2') format('woff2'), url('/src/fonts/OpenSans-Semibold.woff') format('woff');
+  src: url('/fonts/OpenSans-Semibold.woff2') format('woff2'), url('/fonts/OpenSans-Semibold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Open Sans";
-  src: url('/src/fonts/OpenSans-Light.woff2') format('woff2'), url('/src/fonts/OpenSans-Light.woff') format('woff');
+  src: url('/fonts/OpenSans-Light.woff2') format('woff2'), url('/fonts/OpenSans-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
@@ -42,7 +42,7 @@ p {
 }
 
 body {
-  background-image: url(/src/yellow-paper.jpg);
+  background-image: url(/yellow-paper.jpg);
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 2;
